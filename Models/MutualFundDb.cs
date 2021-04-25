@@ -8,11 +8,11 @@ namespace DailyMutualFund.Models
     public class MutualFundDb : IMutualFundDb
     {
         public static List<DailyMutualFundNav> mutualFundDetailList = new List<DailyMutualFundNav> {
-            new DailyMutualFundNav { MutualFundId=1,MutualFundName="ABC",MutualFundValue=100},
-            new DailyMutualFundNav { MutualFundId = 2, MutualFundName = "DEF", MutualFundValue = 200 },
-            new DailyMutualFundNav { MutualFundId = 3, MutualFundName = "GHI", MutualFundValue = 300 },
-            new DailyMutualFundNav { MutualFundId = 4, MutualFundName = "JKL", MutualFundValue = 400 },
-            new DailyMutualFundNav { MutualFundId = 5, MutualFundName = "MNO", MutualFundValue = 500 }
+            new DailyMutualFundNav { MutualFundId=1,MutualFundName="Vanguard",MutualFundValue=100},
+            new DailyMutualFundNav { MutualFundId = 2, MutualFundName = "Fidelity", MutualFundValue = 200 },
+            new DailyMutualFundNav { MutualFundId = 3, MutualFundName = "ICICI", MutualFundValue = 300 },
+            new DailyMutualFundNav { MutualFundId = 4, MutualFundName = "Axis", MutualFundValue = 400 },
+            new DailyMutualFundNav { MutualFundId = 5, MutualFundName = "BARODA", MutualFundValue = 500 }
             };
 
         public DailyMutualFundNav MutualFundNav(string mutualFundName)

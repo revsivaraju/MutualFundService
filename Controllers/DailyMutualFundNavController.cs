@@ -37,5 +37,11 @@ namespace DailyMutualFund.Controllers
 
             return Ok(MutualFundDbObj.MutualFundNav(mutualFundName));
         }
+        [HttpGet]
+        public ActionResult GetAllMutualFunds()
+        {
+
+            return Ok(MutualFundDb.mutualFundDetailList);
+        }
     }
 }
